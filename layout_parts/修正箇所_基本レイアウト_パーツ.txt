@@ -1,0 +1,46 @@
+q1.
+ファイル：css/style.css
+class：.main div:first-child を .main__content:first-child へ変更
+
+
+q2.
+ファイル：index.html
+・class：left-box-thumb1/right-box-thumb2を削除 
+・class：thumb1　を　left-box-thumb　へ変更 
+・class：thumb2　を　right-box-thumb　へ変更 
+・余計なdivタグを削除
+
+ファイル：css/style.css 
+・class：thumb1　を　left-box-thumb　へ変更 
+・class：thumb2　を　right-box-thumb　へ変更
+
+
+q3.
+ファイル：index.html
+・class：calorie-data　を削除
+
+ファイル：css/style.css 
+・style：calorie-data tr:last-child を calorie-table tbody tr:nth-child(5) へ変更
+
+
+q4.
+ファイル：css/style.css
+・style：.main div:first-child を .main__content:first-child へ変更
+
+
+q5.
+ファイル：css/style.css 
+・各番号毎にz-indexを設定（番号×10の値） 
+・style：.main::after　を　.eight::after　へ変更。
+　上記変更に応じて　.eight::after　のプロパティを一部変更
+
+q6.
+ファイル：css/style.css 
+・style：.box-text-align　のプロパティを編集 
+・style：.text-text-alignのプロパティを編集
+（display：flexを使用して中央寄せをしていたところをtext-alignで中央寄せするプロパティへ変更）
+
+
+
+
+
