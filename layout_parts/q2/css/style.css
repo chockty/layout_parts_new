@@ -15,13 +15,13 @@
   box-sizing: border-box;
 }
 
-.thumb1 {
+.left-box-thumb {
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
 }
 
-.thumb2 {
+.right-box-thumb {
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;
