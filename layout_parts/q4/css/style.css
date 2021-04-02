@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-.main div:first-child {
+.main__content:first-child {
   margin-top: 0;
 }
 
