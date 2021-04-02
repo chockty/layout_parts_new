@@ -21,7 +21,7 @@
   border: 1px solid #dedede;
 }
 
-.calorie-data tr:last-child {
+.calorie-table tbody tr:nth-child(5) {
   border-top: 2px dashed #002;
 }
 
