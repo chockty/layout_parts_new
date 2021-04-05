@@ -10,21 +10,21 @@
   position: relative;
 }
 
-.text-box::before {
+.text-box::before,
+.text-box::after {
   content: "";
   position: absolute;
-  bottom: -50px;
   left: 25px;
   border: 25px solid transparent;
+}
+
+.text-box::before {
+  bottom: -50px;
   border-top: 25px solid #222;
 }
 
 .text-box::after {
-  content: "";
-  position: absolute;
   bottom: -43px;
-  left: 25px;
-  border: 25px solid transparent;
   border-top: 25px solid white;
 }
 
