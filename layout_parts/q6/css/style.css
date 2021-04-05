@@ -1,22 +1,21 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.content-property {
+  width: 90px;
+  background-color: #e6f2ff;
+  padding: 10px 0;
+}
+
 .box-text-align {
   text-align: center;
 }
 
 .text-text-align {
   display: inline-block;
-  width: 90px;
-  background-color: #e6f2ff;
-  padding: 10px 0;
-  text-align: center;
 }
 
 .box-text-margin {
-  width: 90px;
-  background-color: #e6f2ff;
-  padding: 10px 0;
   margin: 0 auto;
   text-align: center;
 }
