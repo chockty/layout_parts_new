@@ -55,19 +55,25 @@
 
 .main-box {
   width: 100%;
+  letter-spacing: -1em;
+  white-space: nowrap;
+}
+
+.box-property {
+  display: inline-block;
+  letter-spacing: normal;
+  white-space: normal;
 }
 
 .box-static {
-  display: inline-block;
   width: 300px;
   vertical-align: top;
 }
 
 .box-flexible {
-  display: inline-block;
   box-sizing: border-box;
   width: 100%;
-  margin-left: -305px;
+  margin-left: -300px;
   padding-left: 350px;
 }
 /* 回答はここに書いてね */
