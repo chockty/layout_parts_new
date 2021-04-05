@@ -24,17 +24,17 @@
 
 .inner-table {
   display: table;
-  table-layout: fixed;
 }
 
 .box-table {
   display: table-cell;
   vertical-align: middle;
-  padding-left: 25px;
+  width: 100%;
+  margin-left: 50px;
 }
 
 .box-table:first-child {
-  padding-left: 0;
+  margin-left: 0;
 }
 
 .box-inlineblock {
