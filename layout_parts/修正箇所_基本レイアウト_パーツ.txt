@@ -1,3 +1,32 @@
+＜2回目＞
+q2.
+ファイル：index.html
+・class: content-boxを追加。追加したクラスにclearfixを適用。
+追加箇所：class: left-box-thumbとleft-box-thumbの親要素
+
+q3.
+ファイル：style.css
+・.calorie-table th, 　と　.calorie-table td の共通しているプロパティをまとめた。
+・.calorie-table tbody tr:nth-child(2n) を　.calorie-table tbody tr:nth-child(even) へ変更。
+・.calorie-table tbody tr:nth-child(5) を　.calorie-table tbody tr:last-child へ変更。
+
+q5
+ファイル：style.css
+・.one 〜 .eightまでにかかっていた　position:absolute　を削除
+　共通クラスである .square に　position:absolute　を追記
+・.eight::after の z-index を削除
+
+q6
+ファイル：index.html
+・class: content-property を追加
+追加箇所：class: text-text-align　と　box-text-margin
+
+ファイル：style.css
+・text-text-align のプロパティ text-align: center　を削除
+・.content-propertyを追加
+
+
+＜1回目＞
 q1.
 ファイル：css/style.css
 class：.main div:first-child を .main__content:first-child へ変更
