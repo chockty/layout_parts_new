@@ -25,7 +25,7 @@
   border-top: 2px dashed #002;
 }
 
-.blue-colunm {
+.calorie-table tbody tr:nth-child(2n) {
   background-color: #ecf1f2;
 }
 
