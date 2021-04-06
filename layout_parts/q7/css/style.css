@@ -24,7 +24,6 @@
 
 .inner-table {
   display: table;
-  font-size: 0;
 }
 
 .box-table {
@@ -38,10 +37,18 @@
   padding-left: 0;
 }
 
+.container-inlineblock {
+  letter-spacing: -1em;
+  white-space: nowrap;
+}
+
 .box-inlineblock {
   display: inline-block;
   vertical-align: middle;
   margin-left: 50px;
+  font-size: 16px;
+  letter-spacing: normal;
+  white-space: normal;
 }
 
 .box-inlineblock:first-child {
