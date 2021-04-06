@@ -1,3 +1,24 @@
+＜2回目＞
+q7
+index.html
+・<div class="q7__box box-content box-inlineblock">　内のインテンドを修正
+・class: q7__boxにclass: container-inlineblockを追加	8c92c12	chockty <75976150+chockty@users.noreply.github.com>	2021/04/06 12:26
+
+
+style.css
+・.inner-table のプロパティ font-size: 0 を削除
+・class: containerへのスタイルを追加
+・.box-ilineblock　に以下3つのプロパティを追加
+  font-size: 16px;
+  letter-spacing: normal;
+  white-space: normal;
+
+q8
+style.css
+・45行目　word-break: break-all を削除
+
+
+＜1回目＞
 q7 style.css 
 ・.box-table / .box-table:first-child に適用されている margin-left を padding-leftへ変更
 ・.inner-tableへfont-size: 0　を追加
